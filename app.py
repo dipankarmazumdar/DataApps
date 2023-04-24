@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit.secrets as secrets
 from pyiceberg.catalog import load_catalog
 from pyiceberg.expressions import GreaterThan
 import plotly.express as px
