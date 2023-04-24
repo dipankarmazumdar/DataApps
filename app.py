@@ -8,9 +8,9 @@ import os
 # os.environ['AWS_ACCESS_KEY_ID'] = os.getenv('AWS_ACCESS_KEY_ID')
 # os.environ['AWS_SECRET_ACCESS_KEY'] = os.getenv('AWS_SECRET_ACCESS_KEY')
 
-os.environ['AWS_DEFAULT_REGION'] = secrets["AWS_SECRET_REGION"]
-os.environ['AWS_ACCESS_KEY_ID'] = secrets["AWS_ACCESS_KEY_ID"]
-os.environ['AWS_SECRET_ACCESS_KEY'] = secrets["AWS_SECRET_ACCESS_KEY"]
+os.environ['AWS_DEFAULT_REGION'] = st.secrets["AWS_SECRET_REGION"]
+os.environ['AWS_ACCESS_KEY_ID'] = st.secrets["AWS_ACCESS_KEY_ID"]
+os.environ['AWS_SECRET_ACCESS_KEY'] = st.secrets["AWS_SECRET_ACCESS_KEY"]
 
 
 # Set up Streamlit app
