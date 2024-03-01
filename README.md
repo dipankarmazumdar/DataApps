@@ -1,4 +1,4 @@
-# Churn Analysis using Apache Iceberg Tables
+# Apache Iceberg - DuckDB - Streamlit
 
 ![Churn](output.png)
 
